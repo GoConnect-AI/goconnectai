@@ -9,10 +9,10 @@ const config: Config = {
     extend: {
       colors: {
         background: "#FFFFFF",
-        foreground: "#0A2540",   // deep navy like the logo text
-        muted: "#F3F6FC",        // very light blue-gray
+        foreground: "#0A2540",   // deep navy (text)
+        muted: "#F3F6FC",
         primary: "#2F80FF",      // GoConnect blue
-        accent: "#1D4ED8"        // darker blue accent if needed
+        accent: "#1D4ED8"        // darker blue accent
       },
       borderRadius: {
         '2xl': '1rem'
