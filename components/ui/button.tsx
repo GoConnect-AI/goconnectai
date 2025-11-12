@@ -23,7 +23,7 @@ export function Button({
   const variants =
     variant === 'outline'
       ? 'border border-primary text-primary bg-transparent hover:bg-primary/5'
-      : 'bg-primary text-white hover:bg-[#266EF1]'  // slightly darker blue on hover
+      : 'bg-primary text-white hover:bg-[#266EF1]'  // deeper blue hover
 
   const sizes =
     size === 'sm'
