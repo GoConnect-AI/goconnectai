@@ -2,15 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --radius: 1rem;
-}
-
-html, body {
-  height: 100%;
-}
+/* Brand-y, light background */
+html, body { height: 100%; }
 
 body {
-  color: theme(colors.foreground);
-  background: linear-gradient(to bottom, theme(colors.background), theme(colors.muted) / 0.3);
+  /* soft teal → white gradient */
+  background: radial-gradient(1200px 600px at 20% -10%, #DDF8F4 0%, #FFFFFF 60%);
+  color: #0F172A; /* foreground */
 }
+
+/* Links hover */
+a:hover { text-decoration: underline; }
