@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 1rem;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  color: theme(colors.foreground);
+  background: linear-gradient(to bottom, theme(colors.background), theme(colors.muted) / 0.3);
+}
